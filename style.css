@@ -1,0 +1,70 @@
+/* Poppins Font */
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Navigation Bar */
+#navigationbar {
+    font-family: "Poppins";
+    padding-top: 13px;
+    padding-bottom: 13px;
+    height: 180px;
+}
+
+/* Navigation Bar Logo */
+#navbarlogo {
+    margin-left: 20px;
+}
+
+/* Navigation Bar Logo Image */
+#navbarlogo img {
+    width: 130px;
+    height: auto;
+}
+
+/* Navigation Bar Links */
+#navbarlinks {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation Bar Dropdown Menu (When Hovered) */
+#navbardropdown .nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* Navigation Bar Dropdown Menu */
+#navbardropdown .dropdown-menu {
+    display: none;
+    background-color: #343a40;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Navigation Bar Dropdown Menu Item */
+#navbardropdown .dropdown-item {
+    color: white;
+}
+
+/* Navigation Bar Dropdown Menu Item (When Hovered) */
+#navbardropdown .dropdown-item:hover {
+    background-color: #495057;
+    color: white;
+}
+
+/* Navigation Bar Search Button */
+#navbarbutton {
+    background-color: #997a25;
+    border:#997a25;
+    font-weight: 700;
+}
+
+/* Navigation Bar Search Form (When Focused) */
+#navbarsearch .form-control:focus {
+    border-color:#997a25;
+    box-shadow: 0 0 0 0.2rem rgba(233, 187, 60, 0.25);
+}
