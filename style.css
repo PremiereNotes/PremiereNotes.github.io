@@ -58,13 +58,13 @@
 
 /* Navigation Bar Search Button */
 #navbarbutton {
-    background-color: #997a25;
-    border:#997a25;
+    background-color: #947962;
+    border: #1E151C;
     font-weight: 700;
 }
 
 /* Navigation Bar Search Form (When Focused) */
 #navbarsearch .form-control:focus {
-    border-color:#997a25;
-    box-shadow: 0 0 0 0.2rem rgba(233, 187, 60, 0.25);
+    border-color: #947962;
+    box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
 }
