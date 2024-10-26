@@ -15,12 +15,12 @@
 
 /* Navigation Bar Logo */
 #navbarlogo {
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 /* Navigation Bar Logo Image */
 #navbarlogo img {
-    width: 130px;
+    width: 140px;
     height: auto;
 }
 
@@ -28,6 +28,11 @@
 #navbarlinks {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Navigation Bar Links & Dropdown Menu (When Focused) */
+#navbarlinks :focus {
+    box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
 }
 
 /* Navigation Bar Dropdown Menu (When Hovered) */
@@ -56,11 +61,25 @@
     color: white;
 }
 
+/* Navigation Bar Dropdown Menu Item (When Focused) */
+#navbardropdown .dropdown-item:focus {
+    outline: none;
+    background-color: #343a40;
+    box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
+}
+
+
 /* Navigation Bar Search Button */
 #navbarbutton {
     background-color: #947962;
     border: #1E151C;
     font-weight: 700;
+}
+
+/* Navigation Bar Search Button (When Focused) */
+#navbarbutton:focus {
+    border-color: #947962;
+    box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
 }
 
 /* Navigation Bar Search Form (When Focused) */
