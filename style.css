@@ -24,20 +24,22 @@
     height: auto;
 }
 
+/* Navigation Bar Brand Name Image */
+#navbarbrandname img {
+    height: auto;
+    width: 320px;
+}
+
 /* Navigation Bar Links */
 #navbarlinks {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 /* Navigation Bar Links & Dropdown Menu (When Focused) */
 #navbarlinks :focus {
     box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
-}
-
-/* Navigation Bar Dropdown Menu (When Hovered) */
-#navbardropdown .nav-item.dropdown:hover .dropdown-menu{
-    display: block;
 }
 
 /* Navigation Bar Dropdown Menu */
@@ -48,6 +50,11 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     position: absolute;
     z-index: 1000;
+}
+
+/* Navigation Bar Dropdown Menu (When Hovered) */
+#navbardropdown .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 /* Navigation Bar Dropdown Menu Item */
@@ -68,7 +75,6 @@
     box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
 }
 
-
 /* Navigation Bar Search Button */
 #navbarbutton {
     background-color: #947962;
@@ -80,6 +86,12 @@
 #navbarbutton:focus {
     border-color: #947962;
     box-shadow: 0 0 0 0.2rem rgba(148, 121, 98, 0.25);
+}
+
+/* Navigation Bar Search Form */
+#navbarsearch {
+    width: 280px;
+    margin-right: 20px;
 }
 
 /* Navigation Bar Search Form (When Focused) */
